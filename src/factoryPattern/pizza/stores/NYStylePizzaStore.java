@@ -1,11 +1,12 @@
-package factoryPattern.pizza;
+package factoryPattern.pizza.stores;
 
 import factoryPattern.pizza.pizzas.*;
 
 /**
  * Created by Sorcerer on 2015/11/24.
  */
-public class SimplePizzaFactory {
+public class NYStylePizzaStore extends PizzaStore{
+    @Override
     public Pizza createPizza(String type) {
         Pizza pizza = null;
 
