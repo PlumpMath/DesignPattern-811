@@ -1,7 +1,5 @@
 package strategyPattern.duck.behaviors.fly;
 
-import strategyPattern.duck.behaviors.fly.FlyBehavior;
-
 /**
  * Created by sorcerer on 2015/11/19 0019.
  */

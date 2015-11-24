@@ -1,7 +1,7 @@
 package strategyPattern.duck;
 
-import strategyPattern.duck.Ducks.MallardDuck;
-import strategyPattern.duck.Ducks.ModelDuck;
+import strategyPattern.duck.ducks.MallardDuck;
+import strategyPattern.duck.ducks.ModelDuck;
 import strategyPattern.duck.behaviors.fly.FlyWithWings;
 
 /**

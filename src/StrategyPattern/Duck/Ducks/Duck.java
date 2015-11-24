@@ -1,4 +1,4 @@
-package strategyPattern.duck.Ducks;
+package strategyPattern.duck.ducks;
 
 import strategyPattern.duck.behaviors.fly.FlyBehavior;
 import strategyPattern.duck.behaviors.quack.QuackBehavior;
