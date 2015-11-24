@@ -7,7 +7,7 @@ import java.util.Observer;
 /**
  * Created by pqylj on 2015/11/20 0020.
  */
-public class CurrentConditionDisplay implements Observer, DisplayElement {
+class CurrentConditionDisplay implements Observer, DisplayElement {
     private Observable observable;
     private float temperature;
     private float humidity;

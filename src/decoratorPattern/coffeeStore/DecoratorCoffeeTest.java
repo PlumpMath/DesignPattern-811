@@ -9,7 +9,7 @@ import decoratorPattern.coffeeStore.decorators.Whip;
 /**
  * Created by pqylj on 2015/11/20 0020.
  */
-public class DecoratorCoffeeTest {
+class DecoratorCoffeeTest {
     public static void main(String[] args) {
         Beverage beverage = new DarkRoast();
         beverage = new Milk(beverage);

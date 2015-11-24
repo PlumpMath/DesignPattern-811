@@ -7,7 +7,7 @@ import strategyPattern.duck.behaviors.fly.FlyWithWings;
 /**
  * Created by sorcerer on 2015/11/19 0019.
  */
-public class StrategyDuckTest {
+class StrategyDuckTest {
     public static void main(String[] args) {
         MallardDuck mallardDuck = new MallardDuck();
         mallardDuck.display();

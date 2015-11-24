@@ -3,7 +3,7 @@ package observerPattern.weatherDetecter.byJavaSubjectAndObserver;
 /**
  * Created by pqylj on 2015/11/20 0020.
  */
-public class ObserverByJavaTest {
+class ObserverByJavaTest {
     public static void main(String[] args) {
         WeatherData data = new WeatherData();
         CurrentConditionDisplay display
