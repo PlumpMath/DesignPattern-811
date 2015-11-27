@@ -12,5 +12,5 @@ public interface ControllerInterface {
 
     public void decreaseBPM();
 
-    public void setBPM();
+    public void setBPM(int BMP);
 }

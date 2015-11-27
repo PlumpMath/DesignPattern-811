@@ -3,49 +3,35 @@ package compositePatten.beat;
 /**
  * Created by Administrator on 15-11-27.
  */
-public class BeatController implements BeatModelInterface {
+public class BeatController implements ControllerInterface {
+
+    private BeatModelInterface beatModel;
+    private DJView djView;
+
     @Override
-    public void initialize() {
+    public void start() {
+        beatModel.on();
+        djView = new DJView(this, beatModel);
 
     }
 
     @Override
-    public void on() {
+    public void stop() {
 
     }
 
     @Override
-    public void off() {
+    public void increaseBPM() {
 
     }
 
     @Override
-    public void setBPM(int BPM) {
+    public void decreaseBPM() {
 
     }
 
     @Override
-    public int getBPM() {
-        return 0;
-    }
-
-    @Override
-    public void registerObserver(BeatObserver observer) {
-
-    }
-
-    @Override
-    public void removeObserver(BeatObserver observer) {
-
-    }
-
-    @Override
-    public void registerObserver(BPMObserver observer) {
-
-    }
-
-    @Override
-    public void removeObserver(BPMObserver observer) {
+    public void setBPM() {
 
     }
 }
