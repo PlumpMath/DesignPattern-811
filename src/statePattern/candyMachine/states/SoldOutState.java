@@ -15,21 +15,21 @@ public class SoldOutState implements State {
 
     @Override
     public void insertQuarter() {
-
+        System.out.println("Don't insert quarter, it's sold out.");
     }
 
     @Override
     public void ejectQuarter() {
-
+        System.out.println("You haven't insert quarter.");
     }
 
     @Override
     public void turnCrank() {
-
+        System.out.println("There is no quarter.");
     }
 
     @Override
     public void dispense() {
-
+        System.out.println("No gumball.");
     }
 }

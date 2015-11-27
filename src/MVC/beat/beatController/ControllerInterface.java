@@ -1,4 +1,4 @@
-package compositePatten.beat;
+package MVC.beat.beatController;
 
 /**
  * Created by Administrator on 15-11-27.

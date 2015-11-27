@@ -9,7 +9,7 @@ public class WinnerState implements State {
 
     private GumballMachine gumballMachine;
 
-    public WinnerState(GumballMachine gumballMachine){
+    public WinnerState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 
@@ -30,6 +30,11 @@ public class WinnerState implements State {
 
     @Override
     public void dispense() {
-
+        System.out.println("YOU ARE WINNER! You get two gumballs.");
+        gumballMachine.releaseBall();
+        gumballMachine.releaseBall();
+        if (gumballMachine.getCount() == 0) {
+            gumballMachine.setState(gumballMachine.soldOutState);
+        } else gumballMachine.setState(gumballMachine.noQuarterState);
     }
 }

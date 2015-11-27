@@ -1,4 +1,7 @@
-package compositePatten.beat;
+package MVC.beat.beatModel;
+
+import MVC.beat.observerInterface.BPMObserver;
+import MVC.beat.observerInterface.BeatObserver;
 
 /**
  * Created by Administrator on 15-11-27.
